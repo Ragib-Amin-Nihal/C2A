@@ -6,6 +6,13 @@ This repository contains the code and information for the paper "UAV-Enhanced Co
 
 The C2A (Combination to Application) dataset is a novel synthetic dataset designed to advance human detection in disaster scenarios using UAV imagery. It combines disaster scene backgrounds from the AIDER dataset with human poses from the LSP/MPII-MPHB dataset to create a comprehensive resource for training machine learning models.
 
+## Example Images
+
+Here are some example images from the C2A dataset:
+
+![Example 1](dataset_example.png)
+*Caption: A synthetic disaster scene with multiple human poses*
+
 ## Dataset
 
 The C2A dataset consists of 10,215 images containing over 360,000 annotated human instances in various disaster scenarios. It includes diverse human poses (bent, kneeling, lying, sitting, upright) and disaster contexts (traffic incidents, fire, flood, collapsed buildings).
