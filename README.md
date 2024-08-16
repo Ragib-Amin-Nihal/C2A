@@ -51,5 +51,4 @@ For full results and analysis, please refer to the paper.
 ## Citation
 
 If you use this dataset in your research, please cite our paper:
-- *Ragib Amin Nihal, Benjamin Yen, Katsutoshi Itoyama, Kazuhiro Nakadai* (2024). **UAV-Enhanced Combination to Application: Comprehensive Analysis and Benchmarking of a Human Detection Dataset for Disaster Scenarios**. 
-[![DOI:10.48550/ARXIV.2408.04922](https://arxiv.org/abs/2408.04922)]
+- *Ragib Amin Nihal, Benjamin Yen, Katsutoshi Itoyama, Kazuhiro Nakadai* (2024). **UAV-Enhanced Combination to Application: Comprehensive Analysis and Benchmarking of a Human Detection Dataset for Disaster Scenarios**. [paper](https://arxiv.org/pdf/2408.04922)
