@@ -28,10 +28,15 @@ Alternatively, you can download from [Kaggle](https://www.kaggle.com/datasets/rg
 The C2A dataset is organized into training, validation, and test sets, with multiple annotation formats for flexibility in use. Below is the structure of the dataset:
 
 new_dataset3/
+
 │
+
 ├── All labels with Pose info/
+
 │   └── [YOLO format labels with pose information for all images]
+
 │
+
 ├── test/
 │   ├── images/
 │   │   └── [Test image files]
