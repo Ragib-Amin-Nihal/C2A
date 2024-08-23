@@ -28,26 +28,30 @@ Alternatively, you can download from [Kaggle](https://www.kaggle.com/datasets/rg
 The C2A dataset is organized into training, validation, and test sets, with multiple annotation formats for flexibility in use. Below is the structure of the dataset:
 
 new_dataset3/<br>
-&nbsp;&nbsp;All labels with Pose info/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;[YOLO format labels with pose information for all images]<br>
-&nbsp;&nbsp;test/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;images/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Test image files]<br>
-&nbsp;&nbsp;&nbsp;&nbsp;labels/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[YOLO format label files for test images]<br>
-&nbsp;&nbsp;&nbsp;&nbsp;test_annotations.json  [COCO format annotations for test set]<br>
-&nbsp;&nbsp;train/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;images/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Training image files]<br>
-&nbsp;&nbsp;&nbsp;&nbsp;labels/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[YOLO format label files for training images]<br>
-&nbsp;&nbsp;&nbsp;&nbsp;train_annotations.json  [COCO format annotations for training set]<br>
-&nbsp;&nbsp;val/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;images/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Validation image files]<br>
-&nbsp;&nbsp;&nbsp;&nbsp;labels/<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[YOLO format label files for validation images]<br>
-&nbsp;&nbsp;&nbsp;&nbsp;val_annotations.json  [COCO format annotations for validation set]<br>
+│<br>
+├── All labels with Pose info/<br>
+│&nbsp;&nbsp;&nbsp;└── [YOLO format labels with pose information for all images]<br>
+│<br>
+├── test/<br>
+│&nbsp;&nbsp;&nbsp;├── images/<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── [Test image files]<br>
+│&nbsp;&nbsp;&nbsp;├── labels/<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── [YOLO format label files for test images]<br>
+│&nbsp;&nbsp;&nbsp;└── test_annotations.json&nbsp;&nbsp;[COCO format annotations for test set]<br>
+│<br>
+├── train/<br>
+│&nbsp;&nbsp;&nbsp;├── images/<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── [Training image files]<br>
+│&nbsp;&nbsp;&nbsp;├── labels/<br>
+│&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── [YOLO format label files for training images]<br>
+│&nbsp;&nbsp;&nbsp;└── train_annotations.json&nbsp;&nbsp;[COCO format annotations for training set]<br>
+│<br>
+└── val/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── images/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── [Validation image files]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;├── labels/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└── [YOLO format label files for validation images]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;└── val_annotations.json&nbsp;&nbsp;[COCO format annotations for validation set]<br>
 
 ### File Descriptions
 
