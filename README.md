@@ -19,7 +19,9 @@ Here are some example images from the C2A dataset:
 
 The C2A dataset consists of 10,215 images containing over 360,000 annotated human instances in various disaster scenarios. It includes diverse human poses (bent, kneeling, lying, sitting, upright) and disaster contexts (traffic incidents, fire, flood, collapsed buildings).
 
-[Download the C2A Dataset](https://drive.google.com/file/d/1Uba6CHJRCvF-rgfCXDR6NhTnOvngWsfe/view?usp=sharing)
+[Download the C2A Dataset (Drive](https://drive.google.com/file/d/1Uba6CHJRCvF-rgfCXDR6NhTnOvngWsfe/view?usp=sharing)
+
+Alternatively, you can download from [Kaggle](https://www.kaggle.com/datasets/rgbnihal/c2a-dataset)
 
 ## Dataset Structure
 
