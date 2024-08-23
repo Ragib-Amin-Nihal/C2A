@@ -21,6 +21,70 @@ The C2A dataset consists of 10,215 images containing over 360,000 annotated huma
 
 [Download the C2A Dataset](https://drive.google.com/file/d/1Uba6CHJRCvF-rgfCXDR6NhTnOvngWsfe/view?usp=sharing)
 
+## Dataset Structure
+
+The C2A dataset is organized into training, validation, and test sets, with multiple annotation formats for flexibility in use. Below is the structure of the dataset:
+
+new_dataset3/
+│
+├── All labels with Pose info/
+│   └── [YOLO format labels with pose information for all images]
+│
+├── test/
+│   ├── images/
+│   │   └── [Test image files]
+│   ├── labels/
+│   │   └── [YOLO format label files for test images]
+│   └── test_annotations.json  [COCO format annotations for test set]
+│
+├── train/
+│   ├── images/
+│   │   └── [Training image files]
+│   ├── labels/
+│   │   └── [YOLO format label files for training images]
+│   └── train_annotations.json  [COCO format annotations for training set]
+│
+└── val/
+    ├── images/
+    │   └── [Validation image files]
+    ├── labels/
+    │   └── [YOLO format label files for validation images]
+    └── val_annotations.json  [COCO format annotations for validation set]
+
+### File Descriptions
+
+1. **Image Files**:
+   - Located in the `images` subfolder of each set (train, val, test)
+   - Format: [Specify image format, e.g., JPG, PNG]
+
+2. **YOLO Format Annotations**:
+   - Located in the `labels` subfolder of each set
+   - Format: Text files (.txt) with one line per object
+   - Each line contains: `class x_center y_center width height`
+   - Coordinates are normalized to [0, 1]
+
+3. **COCO Format Annotations**:
+   - JSON files: `train_annotations.json`, `val_annotations.json`, `test_annotations.json`
+   - Contains detailed information about images and annotations in COCO format
+
+4. **Pose Information Labels**:
+   - Located in `All labels with Pose info` folder
+   - YOLO format with an additional value for pose
+   - Format: `class x_center y_center width height pose`
+   - Pose values:
+     - 0: Bent
+     - 1: Kneeling
+     - 2: Lying
+     - 3: Sitting
+     - 4: Upright
+
+### Usage Notes
+
+- The dataset is split into training, validation, and test sets.
+- Two annotation formats are provided for flexibility: YOLO and COCO.
+- Pose information is available in a separate folder for all images.
+- Users can choose between standard object detection (YOLO/COCO) or pose-aware detection (All labels with Pose info).
+
 ## Key Features
 
 - Synthetic dataset combining real disaster scenes with human poses
