@@ -27,33 +27,27 @@ Alternatively, you can download from [Kaggle](https://www.kaggle.com/datasets/rg
 
 The C2A dataset is organized into training, validation, and test sets, with multiple annotation formats for flexibility in use. Below is the structure of the dataset:
 
-'''
 new_dataset3/
-│
-├── All labels with Pose info/
-│   └── [YOLO format labels with pose information for all images]
-│
-├── test/
-│   ├── images/
-│   │   └── [Test image files]
-│   ├── labels/
-│   │   └── [YOLO format label files for test images]
-│   └── test_annotations.json  [COCO format annotations for test set]
-│
-├── train/
-│   ├── images/
-│   │   └── [Training image files]
-│   ├── labels/
-│   │   └── [YOLO format label files for training images]
-│   └── train_annotations.json  [COCO format annotations for training set]
-│
-└── val/
-    ├── images/
-    │   └── [Validation image files]
-    ├── labels/
-    │   └── [YOLO format label files for validation images]
-    └── val_annotations.json  [COCO format annotations for validation set]
-'''
+  All labels with Pose info/
+    [YOLO format labels with pose information for all images]
+  test/
+    images/
+      [Test image files]
+    labels/
+      [YOLO format label files for test images]
+    test_annotations.json  [COCO format annotations for test set]
+  train/
+    images/
+      [Training image files]
+    labels/
+      [YOLO format label files for training images]
+    train_annotations.json  [COCO format annotations for training set]
+  val/
+    images/
+      [Validation image files]
+    labels/
+      [YOLO format label files for validation images]
+    val_annotations.json  [COCO format annotations for validation set]
 
 ### File Descriptions
 
