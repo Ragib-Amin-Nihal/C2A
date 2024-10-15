@@ -96,9 +96,6 @@ new_dataset3/<br>
 - Image resolutions ranging from 123x152 to 5184x3456 pixels
 - Designed to improve human detection in complex disaster environments
 
-## Usage
-
-[Include instructions on how to use the dataset, any preprocessing steps, and example code for loading the data]
 
 ## Benchmarking Results
 
